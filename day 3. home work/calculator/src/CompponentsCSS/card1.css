@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+}
+.div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.foto {
+    
+}
+
+.div1 {
+    display: flex;
+    gap: 20px;
+}
+
+.div1 h2 {
+    font-weight: 540;
+}
+
+.div2 {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.btn h2 {
+    font-weight: 100;
+}
+
+.btn {
+    width: 196px;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    border: none;
+    background-color: #608AF5;
+    color: white;
+}
+
+.div {
+    background-color: whitesmoke;
+    height: 70px;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .div {
+        display: none;
+    }
+}

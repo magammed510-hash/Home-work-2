@@ -1,0 +1,11 @@
+.img0 {
+    width: 100%;
+}
+
+@media (max-width:610px) {
+.DIVDIV {
+  display: flex;
+  flex-direction: column;
+  
+}
+}
